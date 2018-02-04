@@ -1,16 +1,15 @@
 @font-face
 {
-    font-family:'haxrcorp';
-    src: url('haxrcorpttf.ttf');
+    font-family:'serif';
 }
 
 input {
-	font-family: haxrcorp, monospace;
+	font-family: serif;
 	font-size:15px;
 }
 
 body{
-	font-family: haxrcorp, monospace;
+	font-family: serif;
 	font-size:15px;
 	background-color:#F8F8F8;
 	background-image: url("img/bg_tile.jpg");
