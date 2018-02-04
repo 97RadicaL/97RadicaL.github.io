@@ -5,12 +5,12 @@
 
 input {
 	font-family: serif;
-	font-size:15px;
+	font-size:8px;
 }
 
 body{
 	font-family: serif;
-	font-size:15px;
+	font-size:8px;
 	background-color:#F8F8F8;
 	background-image: url("img/bg_tile.jpg");
 	background-repeat: repeat;
