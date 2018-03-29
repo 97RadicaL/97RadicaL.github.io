@@ -4,6 +4,11 @@
     src: url('haxrcorpttf.ttf');
 }
 
+{
+    font-family:'Zpix';
+    src: url('Zpix.ttf');
+}
+
 input {
 	font-family: haxrcorp, monospace;
 	font-size:10px;
@@ -161,7 +166,7 @@ body{
 
 .welcome {
 	line-height:18px;
-	font-family: haxrcorp, monospace;
+	font-family: Zpix, monospace;
 	font-size:18px;
 	position:absolute;
 	top:80px;
