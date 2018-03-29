@@ -1,7 +1,7 @@
 @font-face
 {
     font-family:'haxrcorp';
-    src: url('haxrcorp.tff');
+    src: url('haxrcorpttf.ttf');
 }
 
 input {
@@ -12,7 +12,7 @@ input {
 body{
 	font-family: haxrcorp, monospace;
 	font-size:15px;
-	background-color:#123138;
+	background-color:#1a1e21;
 	background-image: url("img/bg_tile.jpg");
 	background-repeat: repeat;
 }
@@ -161,7 +161,7 @@ body{
 
 .welcome {
 	line-height:18px;
-	font-family: Zpix, monospace;
+	font-family: haxrcorp, monospace;
 	font-size:18px;
 	position:absolute;
 	top:80px;
@@ -231,3 +231,4 @@ a:hover {
 .clink:hover{
 	text-decoration:underline;
 }
+
