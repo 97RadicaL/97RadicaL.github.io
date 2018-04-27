@@ -62,7 +62,7 @@
 				<script>
 					//document.getElementById("main").innerHTML = Date();
 					function updateClock() {
-						var days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+						var days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 						var m = new Date();
 						var dateString =
 						  (days[ m.getDay() ]) + " " +
@@ -70,8 +70,7 @@
 						  ("0" + m.getDate()).slice(-2) + "/" +
 						  m.getFullYear() +" "+
 						  ("0" + m.getHours()).slice(-2) + ":" +
-						  ("0" + m.getMinutes()).slice(-2) + ":" +
-						  ("0" + m.getSeconds()).slice(-2);
+						  ("0" + m.getMinutes()).slice(-2) + ":"
 						
 						// set the content of the element with the ID time to the formatted string
 						document.getElementById('time').innerHTML = dateString;
