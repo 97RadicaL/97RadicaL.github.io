@@ -62,15 +62,17 @@
 				<script>
 					//document.getElementById("main").innerHTML = Date();
 					function updateClock() {
-						var days = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+						var days = [' ',' ',' ',' ',' ',' ',' '];
+						//var days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
 						var m = new Date();
 						var dateString =
 						  (days[ m.getDay() ]) + " " +
-						  ("0" + (m.getMonth()+1)).slice(-2) +"/"+
-						  ("0" + m.getDate()).slice(-2) + "/" +
-						  m.getFullYear() +" "+
-						  ("0" + m.getHours()).slice(-2) + ":" +
-						  ("0" + m.getMinutes()).slice(-2) + ":"
+						  //("0" + (m.getMonth()+1)).slice(-2) +"/"+
+						  //("0" + m.getDate()).slice(-2) + "/" +
+						  //m.getFullYear() +" "+
+						  //("0" + m.getHours()).slice(-2) + ":" +
+						  //("0" + m.getMinutes()).slice(-2) + ":" +
+						  //("0" + m.getSeconds()).slice(-2);
 						
 						// set the content of the element with the ID time to the formatted string
 						document.getElementById('time').innerHTML = dateString;
@@ -92,7 +94,7 @@
 						<li><a href="https://www.reddit.com/r/unixporn/" class="clink" target="_blank">unixporn</a>
 					</ul>
 					<ul>
-						<li><a href="https://gmail.com" class="clink" target="_blank">gmail</a>
+						<li><a href="https://gmail.com" class="clink" target="_blank">email</a>
 						<li><a href="https://tumblr.com" class="clink" target="_blank">tumblr</a>
 						<li><a href="https://youtube.com" class="clink" target="_blank">youtube</a>
 						<li><a href="https://soundcloud.com" class="clink" target="_blank">soundcloud</a>
